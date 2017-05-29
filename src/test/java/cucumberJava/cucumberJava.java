@@ -46,7 +46,7 @@ public class cucumberJava {
 
         capabilities.setCapability("browser_Name","Android");
         //capabilities.setCapability("app","/android-debug.apk");
-       capabilities.setCapability("app","/iberbank/IberBank.apk");
+       capabilities.setCapability("app","src/apk/IberBank.apk");
         // capabilities.setCapability("app","/Iberbank_fuentes/IberBank.apk");
         try{
             driver = new RemoteWebDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities) {};

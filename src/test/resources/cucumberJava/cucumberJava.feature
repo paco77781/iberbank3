@@ -8,34 +8,35 @@ Feature: CucumberJava
 
     Then login should be unsuccessful
 
-    Scenario:Login functionality no exists 2
 
-       Given I open the app
+ //   Scenario:Login functionality no exists 2
 
-        When I enter Usuario as "" and Contrasena as ""
+ //      Given I open the app
 
-        Then login should be unsuccessful
+   //     When I enter Usuario as "" and Contrasena as ""
 
-       Scenario:Login functionality no exists 3
+  //      Then login should be unsuccessful
 
-        Given I open the app
+  //     Scenario:Login functionality no exists 3
 
-      When I enter Usuario as "pepepotamo" and Contrasena as ""
+//        Given I open the app
 
-      Then login should be unsuccessful
+//      When I enter Usuario as "pepepotamo" and Contrasena as ""
 
-      Scenario:Login functionality no exists 4
+ //     Then login should be unsuccessful
 
-        Given I open the app
+//      Scenario:Login functionality no exists 4
 
-       When I enter Usuario as "" and Contrasena as "pepe"
+ //       Given I open the app
 
-        Then login should be unsuccessful
+  //     When I enter Usuario as "" and Contrasena as "pepe"
 
-    Scenario:Login functionality exists
+//        Then login should be unsuccessful
 
-    Given I open the app
+//    Scenario:Login functionality exists
 
-    When I enter Usuario as "iber4" and Contrasena as "iber4"
+ //   Given I open the app
 
-    Then login should be successful
+//    When I enter Usuario as "iber4" and Contrasena as "iber4"
+
+ //   Then login should be successful

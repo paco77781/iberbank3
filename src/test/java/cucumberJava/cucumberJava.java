@@ -32,6 +32,7 @@ public class cucumberJava {
 
 
     public void openDevices(){
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName","Android");
 
@@ -40,14 +41,16 @@ public class cucumberJava {
         capabilities.setCapability("platformVersion","5.1.1");
 
 
-       /*
+    /*
         capabilities.setCapability("deviceName","SM-G130HN");
         capabilities.setCapability("platformVersion","4.4.2");
-        */
+      */
 
         capabilities.setCapability("browser_Name","Android");
         //capabilities.setCapability("app","/android-debug.apk");
-       capabilities.setCapability("app","src/apk/android-debug.apk");
+
+       capabilities.setCapability("app","C:\\Program Files (x86)\\Jenkins\\workspace\\iberbank_maestro\\src\\apk\\iberbank.apk");
+
         // capabilities.setCapability("app","/Iberbank_fuentes/IberBank.apk");
         try{
             driver = new RemoteWebDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities) {};
